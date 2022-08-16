@@ -23,7 +23,7 @@ function Home() {
           </HomeLeft>
           <HomeRight>
             <Image
-              src="https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/profile.jpeg"
+              src="https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/profile.jpg"
               alt="photo"
             />
           </HomeRight>

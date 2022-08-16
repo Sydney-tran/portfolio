@@ -80,6 +80,8 @@ export const HomeRight = styled.div`
 `;
 
 export const Image = styled.img`
+  margin-top: 50px;
   height: 300px;
-  width: auto;
+  width: 310px;
+  border-radius: 50%;
 `;
