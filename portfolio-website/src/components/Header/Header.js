@@ -21,7 +21,7 @@ const Header = () => {
         </NavMenu>
         <ResumeBtn>
           <a
-            className="btn light-btn"
+            className="btn transparent-btn"
             href="https://github.com/sydney-tran" //todo
             target="_blank"
             rel="noopener noreferrer"

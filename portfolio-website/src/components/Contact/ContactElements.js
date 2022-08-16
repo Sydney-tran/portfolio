@@ -45,6 +45,7 @@ export const Element = styled.div`
       margin-bottom: 5px;
     }
     a {
+      visibility: hidden;
       margin-bottom: 20px;
     }
   }

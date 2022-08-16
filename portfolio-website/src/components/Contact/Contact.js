@@ -21,7 +21,7 @@ function Contact() {
     <ContactWrapper id="contact">
       <div className="container">
         <div className="section-title">Contact Me</div>
-          <h1>words words words words words!</h1> {/* todo */}
+          <h1>I would love to talk!</h1>
           <Element>
             <span onClick={() => copy("sydneydtran@gmail.com")}>
               sydneydtran@gmail.com

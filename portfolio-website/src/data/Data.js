@@ -78,7 +78,7 @@ export const projectsList = [
     description: "a website that calculates the quality of upcoming sunsets and sunrises in an inputted zip code",
     contribution1: "converted an inputted zip code into longitude and latitude using Google Maps API",
     contribution2: "collected and presented sunrise/sunset data based on location using Sunset API",
-    contribution3: "implemented with a partner using JavaScript, HTML, and CSS",
+    contribution3: "implemented with a partner (Emily Chen from MIT) using JavaScript, HTML, and CSS",
     tech_stack: "JavaScript, HTML, CSS",
     has_github: true,
     github_url: "https://github.com/Sydney-tran/sunsetcalculator",
@@ -107,71 +107,66 @@ export const projectsList = [
 // about images
 export const imagesList = [ //todo
   {
-    img: "https://www.w3schools.com/w3css/img_lights.jpg",
-    name: "image",
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/sydney.jpeg",
+    name: "me",
   },
   {
-    img: "https://www.w3schools.com/w3css/img_lights.jpg",
-    name: "image",
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/family.jpeg",
+    name: "family",
   },
   {
-    img: "https://www.w3schools.com/w3css/img_lights.jpg",
-    name: "image",
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/cornell.jpeg",
+    name: "cornell and friends",
+  },
+  {
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/ski.jpeg",
+    name: "ski",
+  },
+  {
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/mango.jpeg",
+    name: "mango",
   },
 ];  
 
 // about skills
-export const skillsList = [ //todo
+export const skillsList = [
   {
-    img: "",
     name: "Java",
   },
   {
-    img: "",
     name: "C#",
   },
   {
-    img: "",
     name: ".NET",
   },
   {
-    img: "",
     name: "React",
   },
   {
-    img: "",
     name: "JavaScript",
   },
   {
-    img: "",
     name: "TypeScript",
   },
   {
-    img: "",
     name: "C",
   },
   {
-    img: "",
     name: "Python",
   },
   {
-    img: "",
     name: "Bootstrap",
   },
   {
-    img: "",
     name: "HTML",
   },
   {
-    img: "",
     name: "CSS",
   },
   {
-    img: "",
     name: "Git",
   },
   {
-    img: "",
     name: "Agile",
   },
 ];
@@ -183,22 +178,3 @@ export const certificationsList = [
     img: "https://images.credly.com/size/220x220/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
   }
 ]
-
-// about fun facts
-export const funFactsList = [ //todo
-  {
-    name: "fun fact",
-    img: "",
-    description: "fun fact",
-  },
-  {
-    name: "fun fact",
-    img: "",
-    description: "fun fact",
-  },
-  {
-    name: "fun fact",
-    img: "",
-    description: "fun fact",
-  },
-];

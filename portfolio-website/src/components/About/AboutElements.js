@@ -15,6 +15,7 @@ export const Subtitle = styled.div`
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: 500;
+  font-size: 16px;
   color: white;
 `;
 
@@ -37,23 +38,20 @@ export const Elements = styled.div`
 export const Element = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  min-width: 100px;
+  align-items: left;
+  padding-left: 25px;
+  max-width: 200px;
+  min-width: 125px;
   margin-bottom: 2rem;
 `;
 
-export const ElementImg = styled.img`
-  height: 50px;
-  width: 50px;
-`;
-
 export const ElementName = styled.div`
-  font-size: 14px;
-  color: white;
+  font-size: 16px;
+  color: #303544;
 `;
 
 export const CertificationImg = styled.img`
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   margin: 10px;
 `;

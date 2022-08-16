@@ -13,9 +13,9 @@ function Home() {
         <HomeWrapper>
           <HomeLeft>
             <h1>Hi! I'm Sydney.</h1>
-            <h4>Software Engineer</h4>
+            <h4>Student & Software Engineer</h4>
             <h5>
-              Insert sentence here! Insert sentence here! Insert sentence here! {/* todo */}
+              I am learning how to write better code with every new experience and having fun doing what I love!
             </h5>
             <h6>
               {"// scroll down to learn more about me!"}
@@ -23,7 +23,7 @@ function Home() {
           </HomeLeft>
           <HomeRight>
             <Image
-              src="" //todo
+              src="https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/profile.jpeg"
               alt="photo"
             />
           </HomeRight>

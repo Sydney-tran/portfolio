@@ -83,6 +83,20 @@ video {
   color: #303544;
 }
 
+.transparent-btn {
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  margin-right: 1rem;
+}
+
+.transparent-btn:hover {
+  border: 2px solid #303544;
+  background: transparent;
+  color: #303544;
+  margin-right: 1rem;
+}
+
 .container {
   width: 100%;
   padding-right: 1rem;
