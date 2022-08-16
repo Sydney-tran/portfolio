@@ -107,23 +107,23 @@ export const projectsList = [
 // about images
 export const imagesList = [ //todo
   {
-    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/sydney.jpeg",
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/sydney.jpg",
     name: "me",
   },
   {
-    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/family.jpeg",
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/family.jpg",
     name: "family",
   },
   {
-    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/cornell.jpeg",
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/cornell.jpg",
     name: "cornell and friends",
   },
   {
-    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/ski.jpeg",
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/ski.jpg",
     name: "ski",
   },
   {
-    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/mango.jpeg",
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/mango.jpg",
     name: "mango",
   },
 ];  
