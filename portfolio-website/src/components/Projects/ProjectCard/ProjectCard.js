@@ -52,12 +52,13 @@ function ProjectCard() {
                 />
               }
               {!list.has_vid &&
-                <img
+                <img className="image"
                 src={list.img}
                 alt={list.title}
                 />
               }
             </div>
+            <p>{list.has_vid && "hover to see video!"}</p>
             <BtnGroup>
               {list.has_github && 
                 <a

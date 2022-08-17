@@ -74,6 +74,7 @@ export const CardLeft = styled.div`
 export const Stack = styled.div`
   display: flex;
   align-items: center;
+  margin-top: 20px;
   margin-bottom: 10px;
 
   .stack-title {
@@ -101,15 +102,27 @@ export const CardRight = styled.div`
     background: #303544;
     padding: 7px;
     padding-bottom: 0px;
-    width: 80%;
+    width: 90%;
     height: auto;
   }
 
   img {
-    border: 0px solid #303544;
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .image {
+    border-bottom: 7px solid #303544;
+    width: auto;
+    height: auto;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #303544;
+    margin-top: 10px;
   }
 `;
 
