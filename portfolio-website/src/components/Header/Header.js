@@ -22,7 +22,7 @@ const Header = () => {
         <ResumeBtn>
           <a
             className="btn transparent-btn"
-            href="https://github.com/sydney-tran" //todo
+            href="https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/SydneyTranResume.pdf" //todo
             target="_blank"
             rel="noopener noreferrer"
           >
