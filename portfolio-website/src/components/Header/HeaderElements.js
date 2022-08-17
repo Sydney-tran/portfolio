@@ -26,7 +26,7 @@ export const NavLink = styled(ScrollLink)`
   padding-right: 3rem;
   cursor: pointer;
   &:hover {
-    color: #303544;
+    color: #F2ACAC;
   }
 `;
 

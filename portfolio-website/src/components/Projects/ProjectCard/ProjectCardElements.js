@@ -29,7 +29,7 @@ export const CardLeft = styled.div`
     span {
       font-size: 1.75rem;
       font-style: italic;
-      color: #303544;
+      color: #F2ACAC;
     }
   }
 
@@ -44,7 +44,7 @@ export const CardLeft = styled.div`
   h5 {
     font-size: 1rem;
     font-weight: 500;
-    color: #303544;
+    color: #F2ACAC;
   }
 
   ul {
@@ -81,13 +81,13 @@ export const Stack = styled.div`
     font-weight: 500;
     margin-right: 10px;
     font-size: 17px;
-    color: #303544;
+    color: #F2ACAC;
   }
 
   .tags {
     font-size: 15px;
     font-weight: 400;
-    color: #303544;
+    color: #F2ACAC;
   }
 `;
 
@@ -99,7 +99,7 @@ export const CardRight = styled.div`
   align-items: center;
 
   .video {
-    background: #303544;
+    background: #232232;
     padding: 7px;
     padding-bottom: 0px;
     width: 90%;
@@ -113,7 +113,7 @@ export const CardRight = styled.div`
   }
 
   .image {
-    border-bottom: 7px solid #303544;
+    border-bottom: 7px solid #232232;
     width: auto;
     height: auto;
   }
@@ -121,7 +121,7 @@ export const CardRight = styled.div`
   p {
     font-size: 15px;
     font-weight: 400;
-    color: #303544;
+    color: #F2ACAC;
     margin-top: 10px;
   }
 `;

@@ -20,7 +20,7 @@ export const Icon = styled.div`
     color: white;
     transition: 0.2s ease-in;
     &:hover {
-      color: #303544;
+      color: #F2ACAC;
     }
   }
 

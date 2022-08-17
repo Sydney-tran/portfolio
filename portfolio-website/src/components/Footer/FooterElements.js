@@ -9,6 +9,6 @@ export const FooterSection = styled.div`
   span {
     position: absolute;
     bottom: 2rem;
-    color: white;
+    color: #F2ACAC;
   }
 `;

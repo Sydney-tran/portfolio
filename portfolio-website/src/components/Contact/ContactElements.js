@@ -20,19 +20,19 @@ export const Element = styled.div`
   span {
     font-weight: 500;
     margin-bottom: 1rem;
-    color: #303544;
+    color: white;
 
     p {
       visibility: hidden;
       text-align: center;
       font-size: 14px;
       border-radius: 5px;
-      color: #303544;
+      color: #F2ACAC;
     }
   }
 
   span:hover {
-    color: white;
+    color: #F2ACAC;
     p {
       visibility: visible;
     }
