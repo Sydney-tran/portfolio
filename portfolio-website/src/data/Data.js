@@ -1,9 +1,9 @@
 // projects
 export const projectsList = [
   {
-    img: "https://www.w3schools.com/w3css/img_lights.jpg", //todo
-    has_vid: true, //todo
-    vid: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4", //todo
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/finowl.png", 
+    has_vid: false,
+    vid: "",
     title: "FinOwl",
     company: "MILL5",
     year: "May. 2022 - Aug. 2022",
@@ -18,9 +18,9 @@ export const projectsList = [
     demo_url: "",
   },
   {
-    img: "https://www.w3schools.com/w3css/img_lights.jpg", //todo
-    has_vid: false, //todo
-    vid: "", //todo
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/cornellbustracker.jpg", 
+    has_vid: false, 
+    vid: "",
     title: "Raspberry Pi Cornell Bus Tracker",
     company: "Personal Project",
     year: "Jul. 2022 – Aug. 2022",
@@ -35,9 +35,9 @@ export const projectsList = [
     demo_url: "", 
   },
   {
-    img: "https://www.w3schools.com/w3css/img_lights.jpg", //todo
-    has_vid: false, //todo
-    vid: "", //todo
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/designatcornell.jpg", 
+    has_vid: false, 
+    vid: "",
     company: "Cornell DTI",
     title: "Design@Cornell ",
     year: "Nov. 2021 – Present",
@@ -52,9 +52,9 @@ export const projectsList = [
     demo_url: "http://design.cornell.edu/",
   },
   {
-    img: "https://www.w3schools.com/w3css/img_lights.jpg", //todo
-    has_vid: false, //todo
-    vid: "", //todo
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/critterworld.jpg", 
+    has_vid: false,
+    vid: "",
     title: "Critter World",
     company: "Cornell CS 2112",
     year: "Oct. 2021 – Dec. 2021",
@@ -69,9 +69,9 @@ export const projectsList = [
     demo_url: "",
   },
   {
-    img: "https://www.w3schools.com/w3css/img_lights.jpg", //todo
-    has_vid: false, //todo
-    vid: "", //todo
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/sunsetcalc.png", 
+    has_vid: true, 
+    vid: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/sunsetcalculator.mp4", 
     title: "Sunset Calculator",
     company: "Personal Project",
     year: "Feb. 2021 – Jun. 2021",
@@ -86,9 +86,9 @@ export const projectsList = [
     demo_url: "",
   },
   {
-    img: "https://www.w3schools.com/w3css/img_lights.jpg", //todo
-    has_vid: false, //todo
-    vid: "", //todo
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/cosine.jpg", 
+    has_vid: false,
+    vid: "",
     title: "Cosine Demo",
     company: "Harvard DASlab",
     year: "May. 2020 – Sep. 2020",
