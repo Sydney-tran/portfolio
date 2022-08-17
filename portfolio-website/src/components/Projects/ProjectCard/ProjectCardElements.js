@@ -31,6 +31,10 @@ export const CardLeft = styled.div`
       font-style: italic;
       color: #F2ACAC;
     }
+
+    span:hover {
+      color: white;
+    }
   }
 
   h4 {
@@ -55,6 +59,10 @@ export const CardLeft = styled.div`
     span {
       color: #F2ACAC;
       font-style: italic;
+    }
+
+    span:hover {
+      color: white;
     }
   }
 

@@ -20,19 +20,23 @@ export const Element = styled.div`
   span {
     font-weight: 500;
     margin-bottom: 1rem;
-    color: white;
+    color: #F2ACAC;
 
     p {
       visibility: hidden;
       text-align: center;
       font-size: 14px;
       border-radius: 5px;
-      color: #F2ACAC;
+      color: white;
     }
   }
 
+  a {
+    margin-bottom: 20px;
+  }
+
   span:hover {
-    color: #F2ACAC;
+    color: white;
     p {
       visibility: visible;
     }
@@ -44,9 +48,10 @@ export const Element = styled.div`
       margin-top: 5px;
       margin-bottom: 5px;
     }
+  }
+  @media (min-width: 768px) {
     a {
       visibility: hidden;
-      margin-bottom: 20px;
     }
   }
   @media (min-width: 992px) {
