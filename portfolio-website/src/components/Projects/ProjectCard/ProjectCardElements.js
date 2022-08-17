@@ -51,6 +51,11 @@ export const CardLeft = styled.div`
     color: white;
     list-style-type: disc;
     padding-left: 1rem;
+
+    span {
+      color: #F2ACAC;
+      font-style: italic;
+    }
   }
 
   p {

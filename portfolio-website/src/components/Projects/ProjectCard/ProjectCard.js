@@ -15,11 +15,43 @@ function ProjectCard() {
       {projectsList.map((list, index) => (
         <Card key={index}>
           <CardLeft>
-            <h3>{list.title}<span>&nbsp;&mdash;&nbsp;{list.company}</span></h3>
+            <h3>{list.title}
+              <span>&nbsp;&mdash;&nbsp;
+                <a
+                  href={list.company_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {list.company}
+                </a>
+              </span>
+            </h3>
             <h4>{list.year}</h4>
             <h5>what it is</h5>
             <ul>
               <li><p>{list.description}</p></li>
+              <div>
+                {list.has_partner1 && 
+                  <li>
+                    <p>
+                      <a 
+                        href={list.partner1.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        collaborated with <span>{list.partner1.name}</span>
+                      </a>
+                    </p>
+                  </li>
+                }
+                {list.has_partner2 && 
+                  <li>
+                    <p>
+                      collaborated with {list.partner2.name}
+                    </p>
+                  </li>
+                }
+              </div>
             </ul>
             <h5>what i did</h5>
             <ul>
