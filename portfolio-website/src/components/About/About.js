@@ -2,6 +2,7 @@ import React from "react";
 import { skillsList, certificationsList, imagesList} from "../../data/Data";
 import {
   AboutWrapper,
+  AboutCard,
   AboutBio,
   Subtitle,
   Image,
@@ -23,7 +24,7 @@ function About() {
     <AboutWrapper id="about">
       <div className="container">
         <div className="section-title">About Me</div>
-        <div className="card-big">
+        <AboutCard>
           <AboutBio>
             I am a sophomore at Cornell Univeristy
             studying Computer Science in the College of Engineering and
@@ -53,7 +54,7 @@ function About() {
               </SwiperSlide>
             ))}
           </Swiper>
-        </div>
+        </AboutCard>
         <Subtitle>Skills</Subtitle>
         <Elements>
           {skillsList.map((skill, index) => (

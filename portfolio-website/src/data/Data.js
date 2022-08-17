@@ -105,7 +105,7 @@ export const projectsList = [
 ];
 
 // about images
-export const imagesList = [ //todo
+export const imagesList = [
   {
     img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/sydney.jpg",
     name: "me",

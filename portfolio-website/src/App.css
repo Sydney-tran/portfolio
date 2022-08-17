@@ -105,12 +105,6 @@ video {
   margin-left: auto;
 }
 
-.card-big {
-  padding-bottom: 1rem;
-  display: flex;
-  flex-direction: row;
-}
-
 .section-title {
   font-size: 45px;
   color: white;
@@ -143,6 +137,12 @@ video {
   max-width: 300px;
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 992px) {
+  .swiper {
+    margin-top: 25px;
+  }
 }
 
 .swiper-button-prev {

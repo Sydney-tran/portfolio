@@ -58,7 +58,7 @@ export const HomeLeft = styled.div`
   h5 {
     font-size: 17px;
     color: white;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
   }
 
   h6 {
@@ -84,4 +84,8 @@ export const Image = styled.img`
   height: 300px;
   width: 310px;
   border-radius: 50%;
+
+  @media (max-width: 992px) {
+    visibility: hidden;
+  }
 `;

@@ -4,6 +4,17 @@ export const AboutWrapper = styled.div`
   padding-top: 8rem;
 `;
 
+export const AboutCard = styled.div`
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
 export const AboutBio = styled.div`
   text-align: left;
   max-width: 500px;
