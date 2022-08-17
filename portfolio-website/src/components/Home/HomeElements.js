@@ -63,7 +63,7 @@ export const HomeLeft = styled.div`
 
   h6 {
     font-size: 17px;
-    color: white;
+    color: #F2ACAC;
   }
 
   @media screen and (max-width: 992px) {

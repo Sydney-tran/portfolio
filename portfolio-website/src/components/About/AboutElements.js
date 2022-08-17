@@ -18,8 +18,12 @@ export const AboutCard = styled.div`
 export const AboutBio = styled.div`
   text-align: left;
   max-width: 500px;
-  color: #F2ACAC;
+  color: white;
   line-height: 1.8;
+
+  s {
+    color: white;
+  }
 `;
 
 export const Subtitle = styled.div`
@@ -27,7 +31,7 @@ export const Subtitle = styled.div`
   margin-bottom: 1rem;
   font-weight: 500;
   font-size: 16px;
-  color: white;
+  color: #F2ACAC;
 `;
 
 export const Image = styled.img`
@@ -58,7 +62,7 @@ export const Element = styled.div`
 
 export const ElementName = styled.div`
   font-size: 16px;
-  color: #F2ACAC;
+  color: white;
 `;
 
 export const CertificationImg = styled.img`
