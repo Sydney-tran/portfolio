@@ -68,7 +68,7 @@ export const projectsList = [
     company: "Cornell CS 2112",
     company_url: "https://www.cs.cornell.edu/courses/cs2112/2021fa/",
     year: "Oct. 2021 – Dec. 2021",
-    description: "a Java program that simulates evolving artificial life for the Cornell CS 2112 class final project (created with Cathryn Li and Tori Zhang)",
+    description: "a Java program that simulates evolving artificial life for the Cornell CS 2112 class final project",
     has_partner1: true,
     partner1: {name: "Cathryn Li", url: "https://www.linkedin.com/in/cathryn-li-383239209/"},
     has_partner2: true,
