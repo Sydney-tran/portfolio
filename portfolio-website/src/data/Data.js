@@ -25,6 +25,29 @@ export const projectsList = [
     demo_url: "",
   },
   {
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/designatcornell.jpg",
+    has_vid: false,
+    vid: "",
+    company: "Cornell DTI",
+    company_url: "https://www.cornelldti.org/",
+    title: "Design@Cornell ",
+    year: "Nov. 2021 – Present",
+    description:
+      "a website that serves as a centralized repository of resources and information for the design community at Cornell",
+    has_partner1: false,
+    has_partner2: false,
+    contribution1:
+      "collaborated with a sub-team of 8 Cornell student developers, designers, and project managers",
+    contribution2:
+      "implemented the Student Orgs, Faculty, and Articles desktop pages and the Area of Study and Events mobile pages using React with TypeScript",
+    contribution3: "prepared website for launch in May 2022!",
+    tech_stack: "React, TypeScript, HTML, CSS",
+    has_github: true,
+    github_url: "https://github.com/cornell-dti/DesignAtCornell",
+    has_demo: true,
+    demo_url: "https://cudesign.io/",
+  },
+  {
     img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/cornellbustracker.jpg",
     has_vid: true,
     vid: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/cornellbustracker.mp4",
@@ -48,29 +71,6 @@ export const projectsList = [
       "https://github.com/Sydney-tran/raspberrypi_cornell_bus_tracker",
     has_demo: false,
     demo_url: "",
-  },
-  {
-    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/designatcornell.jpg",
-    has_vid: false,
-    vid: "",
-    company: "Cornell DTI",
-    company_url: "https://www.cornelldti.org/",
-    title: "Design@Cornell ",
-    year: "Nov. 2021 – Present",
-    description:
-      "a website that serves as a centralized repository of resources and information for the design community at Cornell",
-    has_partner1: false,
-    has_partner2: false,
-    contribution1:
-      "collaborated with a sub-team of 8 Cornell student developers, designers, and project managers",
-    contribution2:
-      "implemented the student orgs, design community, articles, and faculty pages using React with TypeScript",
-    contribution3: "prepared website for launch in May 2022!",
-    tech_stack: "React, TypeScript, HTML, CSS",
-    has_github: true,
-    github_url: "https://github.com/cornell-dti/DesignAtCornell",
-    has_demo: true,
-    demo_url: "http://design.cornell.edu/",
   },
   {
     img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/critterworld.jpg",
