@@ -34,33 +34,24 @@ function ProjectCard() {
                 {list.has_partner1 && 
                   <li>
                     <p>
+                    collaborated with
                       <a 
                         href={list.partner1.url}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        collaborated with <span>{list.partner1.name}</span>
+                        {" "}<span>{list.partner1.name}</span>
                       </a>
-                    </p>
-                  </li>
-                }
-                {list.has_partner2 && 
-                  <li>
-                    <p>
-                      collaborated with {list.partner2.name}
-                    </p>
-                  </li>
-                }
-                {list.has_partner3 && 
-                  <li>
-                    <p>
-                      <a 
-                        href={list.partner3.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        collaborated with <span>{list.partner3.name}</span>
-                      </a>
+                      {list.has_partner2 && " , " + list.partner2.name}
+                      {list.has_partner3 && 
+                        <a 
+                          href={list.partner3.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {" , "}<span>{list.partner3.name}</span>
+                        </a>
+                      }
                     </p>
                   </li>
                 }
