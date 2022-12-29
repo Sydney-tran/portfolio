@@ -3,6 +3,7 @@ export const projectsList = [
   {
     img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/melodygenerator.jpg",
     has_vid: true,
+    has_sound: true,
     vid: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/melodygenerator.mp4",
     title: "The Melody Generator",
     company: "Cornell CS 3110",
@@ -86,6 +87,7 @@ export const projectsList = [
   {
     img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/cornellbustracker.jpg",
     has_vid: true,
+    has_sound: false,
     vid: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/cornellbustracker.mp4",
     title: "Raspberry Pi Cornell Bus Tracker",
     company: "Personal Project",
@@ -142,6 +144,7 @@ export const projectsList = [
   {
     img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/sunsetcalc.png",
     has_vid: true,
+    has_sound: false,
     vid: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/sunsetcalculator.mp4",
     title: "Sunset Calculator",
     company: "Personal Project",

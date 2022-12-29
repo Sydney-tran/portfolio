@@ -83,6 +83,7 @@ function ProjectCard() {
               {list.has_vid && 
                 <HoverVideoPlayer
                   videoSrc={list.vid}
+                  muted={false}
                   pausedOverlay={
                     <img
                       src={list.img}
@@ -103,7 +104,7 @@ function ProjectCard() {
                 />
               }
             </div>
-            <p>{list.has_vid && "hover to see video!"}</p>
+            <p>{list.has_vid && "hover to see video"} {list.has_sound && "+ click to hear audio"}</p>
             <BtnGroup>
               {list.has_github && 
                 <a
