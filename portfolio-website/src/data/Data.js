@@ -1,6 +1,40 @@
 // projects
 export const projectsList = [
   {
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/melodygenerator.jpg",
+    has_vid: true,
+    vid: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/melodygenerator.mp4",
+    title: "The Melody Generator",
+    company: "Cornell CS 3110",
+    company_url: "https://cs3110.github.io/textbook/chapters/intro/intro.html",
+    year: "Sep. 2022 – Dec. 2022",
+    description:
+      "an interactive melody generator developed in OCaml for the Cornell CS 3110 class final project",
+    has_partner1: true,
+    partner1: {
+      name: "Jennifer Gu",
+      url: "https://www.linkedin.com/in/jjennifergu/",
+    },
+    has_partner2: true,
+    partner2: { name: "Tori Zhang", url: "" },
+    has_partner3: true,
+    partner3: {
+      name: "Benjamin Tang",
+      url: "https://www.linkedin.com/in/b3njamint/",
+    },
+    contribution1:
+      "implemented functions to create the randomly generated portion of the melody",
+    contribution2:
+      "created terminal UI including the outputted note sheet that contains the user’s generated melody",
+    contribution3:
+      "developed test suite to test all methods in interface",
+    tech_stack: "OCaml",
+    has_github: true,
+    github_url: "https://github.com/b3njamint/cs-3110-final",
+    has_demo: false,
+    demo_url: "",
+  },
+  {
     img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/finowl.png",
     has_vid: false,
     vid: "",
@@ -12,6 +46,7 @@ export const projectsList = [
       "an application that helps financiers and stock traders retrieve quality market information through chat bots in platforms such as Microsoft Teams",
     has_partner1: false,
     has_partner2: false,
+    has_partner3: false,
     contribution1:
       "built frontend and backend of the internal administration site for managing FinOwl users and products",
     contribution2:
@@ -36,6 +71,7 @@ export const projectsList = [
       "a website that serves as a centralized repository of resources and information for the design community at Cornell",
     has_partner1: false,
     has_partner2: false,
+    has_partner3: false,
     contribution1:
       "collaborated with a sub-team of 8 Cornell student developers, designers, and project managers",
     contribution2:
@@ -59,6 +95,7 @@ export const projectsList = [
       "a Cornell bus tracker that notifies students when to leave their dorm room to catch the bus from any stop just by looking at the LED lights in their room",
     has_partner1: false,
     has_partner2: false,
+    has_partner3: false,
     contribution1:
       "performed web scraping of Tompkins Consolidated Area Transit website to collect route data",
     contribution2:
@@ -89,6 +126,7 @@ export const projectsList = [
     },
     has_partner2: true,
     partner2: { name: "Tori Zhang", url: "" },
+    has_partner3: false,
     contribution1:
       "built a parser that generates abstract syntax trees and tested using fault injection",
     contribution2:
@@ -117,6 +155,7 @@ export const projectsList = [
       url: "https://www.linkedin.com/in/emily-m-chen/",
     },
     has_partner2: false,
+    has_partner3: false,
     contribution1:
       "converted an inputted zip code into longitude and latitude using Google Maps API",
     contribution2:
@@ -140,6 +179,7 @@ export const projectsList = [
       "a web demo for the Cosine (Cloud-Cost Optimized NoSQL Storage Engine) research paper",
     has_partner1: false,
     has_partner2: false,
+    has_partner3: false,
     contribution1:
       "collaborated with professor Stratos Idreos and his team from the Data Systems Laboratory",
     contribution2:

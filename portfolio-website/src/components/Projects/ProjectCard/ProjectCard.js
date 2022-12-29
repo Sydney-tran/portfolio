@@ -51,6 +51,19 @@ function ProjectCard() {
                     </p>
                   </li>
                 }
+                {list.has_partner3 && 
+                  <li>
+                    <p>
+                      <a 
+                        href={list.partner3.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        collaborated with <span>{list.partner3.name}</span>
+                      </a>
+                    </p>
+                  </li>
+                }
               </div>
             </ul>
             <h5>what i did</h5>
