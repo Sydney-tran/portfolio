@@ -42,7 +42,15 @@ function ProjectCard() {
                       >
                         {" "}<span>{list.partner1.name}</span>
                       </a>
-                      {list.has_partner2 && " , " + list.partner2.name}
+                      {list.has_partner2 && 
+                        <a 
+                          href={list.partner2.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {" , "}<span>{list.partner2.name}</span>
+                        </a>
+                      }
                       {list.has_partner3 && 
                         <a 
                           href={list.partner3.url}

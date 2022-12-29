@@ -17,7 +17,10 @@ export const projectsList = [
       url: "https://www.linkedin.com/in/jjennifergu/",
     },
     has_partner2: true,
-    partner2: { name: "Tori Zhang", url: "" },
+    partner2: { 
+      name: "Tori Zhang", 
+      url: "https://www.linkedin.com/in/victoria-zhang-b3b331229/" 
+    },
     has_partner3: true,
     partner3: {
       name: "Benjamin Tang",
@@ -127,7 +130,10 @@ export const projectsList = [
       url: "https://www.linkedin.com/in/cathryn-li-383239209/",
     },
     has_partner2: true,
-    partner2: { name: "Tori Zhang", url: "" },
+    partner2: { 
+      name: "Tori Zhang", 
+      url: "https://www.linkedin.com/in/victoria-zhang-b3b331229/" 
+    },
     has_partner3: false,
     contribution1:
       "built a parser that generates abstract syntax trees and tested using fault injection",
