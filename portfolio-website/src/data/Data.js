@@ -257,34 +257,28 @@ export const skillsList = [
     name: "Java",
   },
   {
-    name: "C#",
-  },
-  {
-    name: ".NET",
-  },
-  {
-    name: "React",
-  },
-  {
     name: "JavaScript",
   },
   {
     name: "TypeScript",
   },
   {
-    name: "C",
+    name: "C#",
+  },
+  {
+    name: "OCaml",
   },
   {
     name: "Python",
   },
   {
-    name: "Bootstrap",
+    name: "SQL",
   },
   {
-    name: "HTML",
+    name: "React",
   },
   {
-    name: "CSS",
+    name: ".NET Core",
   },
   {
     name: "Git",
