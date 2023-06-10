@@ -1,6 +1,30 @@
 // projects
 export const projectsList = [
   {
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/queuemein.jpg",
+    has_vid: false,
+    vid: "",
+    company: "Cornell DTI",
+    company_url: "https://www.cornelldti.org/",
+    title: "QueueMeIn",
+    year: "Jan. 2023 – present",
+    description:
+      "a website used manage and organize office hours in classes at Cornell",
+    has_partner1: false,
+    has_partner2: false,
+    has_partner3: false,
+    contribution1:
+      "collaborated with a sub-team of 7 Cornell student developers, designers, and project managers",
+    contribution2:
+      "developed the filter questions by tags, preview most recent comment, and view current time spent on a question features",
+    contribution3: "implemented using React with TypeScript",
+    tech_stack: "React, TypeScript, SCSS",
+    has_github: true,
+    github_url: "https://github.com/cornell-dti/office-hours",
+    has_demo: true,
+    demo_url: "https://queueme.in/",
+  },
+  {
     img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/melodygenerator.jpg",
     has_vid: true,
     has_sound: true,
@@ -69,8 +93,8 @@ export const projectsList = [
     vid: "",
     company: "Cornell DTI",
     company_url: "https://www.cornelldti.org/",
-    title: "Design@Cornell ",
-    year: "Nov. 2021 – Present",
+    title: "CU Design",
+    year: "Nov. 2021 – Dec. 2022",
     description:
       "a website that serves as a centralized repository of resources and information for the design community at Cornell",
     has_partner1: false,
@@ -81,7 +105,7 @@ export const projectsList = [
     contribution2:
       "implemented the Student Orgs, Faculty, and Articles desktop pages and the Area of Study and Events mobile pages using React with TypeScript",
     contribution3: "prepared website for launch in May 2022!",
-    tech_stack: "React, TypeScript, HTML, CSS",
+    tech_stack: "React, TypeScript, CSS",
     has_github: true,
     github_url: "https://github.com/cornell-dti/DesignAtCornell",
     has_demo: true,
