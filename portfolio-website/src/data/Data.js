@@ -1,6 +1,31 @@
 // projects
 export const projectsList = [
   {
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/starburst.jpg",
+    has_vid: false,
+    vid: "",
+    company: "Starburst",
+    company_url: "https://www.starburst.io/",
+    title: "Starburst Galaxy",
+    year: "May. 2023 – Aug. 2023",
+    description:
+      "a fully-managed data lake analytics platform for querying across disparate data sources and with support for AWS, Azure, and Google Cloud",
+    has_partner1: false,
+    has_partner2: false,
+    has_partner3: false,
+    contribution1:
+      "implemented pricing and packaging plan using Java for backend, React with Typescript for frontend, and SQL for DB migrations",
+    contribution2:
+      "integrated payment tiers into billing and entitlement system and added backend and UI gates for paid tier features",
+    contribution3: 
+      "developed new free trial experience by updating billing and entitlement managers and creating notifications events",
+    tech_stack: "Java, React, TypeScript, SQL",
+    has_github: false,
+    github_url: "",
+    has_demo: true,
+    demo_url: "https://www.starburst.io/platform/starburst-galaxy/",
+  },
+  {
     img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/queuemein.jpg",
     has_vid: false,
     vid: "",
@@ -9,7 +34,7 @@ export const projectsList = [
     title: "QueueMeIn",
     year: "Jan. 2023 – present",
     description:
-      "a website used manage and organize office hours in classes at Cornell",
+      "a website used to manage and organize office hours in classes at Cornell",
     has_partner1: false,
     has_partner2: false,
     has_partner3: false,
@@ -278,7 +303,7 @@ export const skillsList = [
     name: "React",
   },
   {
-    name: ".NET Core",
+    name: ".NET",
   },
   {
     name: "Git",
