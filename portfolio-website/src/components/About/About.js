@@ -26,7 +26,7 @@ function About() {
         <div className="section-title">About Me</div>
         <AboutCard>
           <AboutBio>
-            I am a sophomore at Cornell Univeristy
+            I am a junior at Cornell Univeristy
             studying Computer Science in the College of Engineering and
             a developer on the Cornell Design & Tech Initiative Project Team. I took 
             my very first programming course when I was 14 and since then, 
