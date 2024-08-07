@@ -1,6 +1,64 @@
 // projects
 export const projectsList = [
   {
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/klaviyo.jpg",
+    has_vid: false,
+    vid: "",
+    company: "Klaviyo",
+    company_url: "https://www.klaviyo.com/",
+    title: "Multi-Tenant Webserver Test",
+    year: "Jun. 2024 – Aug. 2024",
+    description:
+      "a system to allow developers at Klaviyo to concurrently test HTTP request logic in production environment",
+    has_partner1: false,
+    has_partner2: false,
+    has_partner3: false,
+    contribution1:
+      "collaborated with SRE Web Infrastructure and Gateway team to architect and develop system ",
+    contribution2:
+      "implemented Infrastructure as Code using Terraform to provision AWS EC2 Auto Scaling Groups with security groups",
+    contribution3: 
+      "built dynamic routing mechanism on Nginx Reverse Proxy using Python, Jinja template, and Linux Cron Job",
+    tech_stack: "Python, Terraform, Nginx, AWS",
+    has_github: false,
+    github_url: "",
+    has_demo: false,
+    demo_url: "",
+  },
+  {
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/wikiautocategorization.jpg",
+    has_vid: false,
+    vid: "",
+    title: "Wikipedia Auto Categorization",
+    company: "Cornell CS 4701",
+    company_url: "https://www.cs.cornell.edu/courses/cs4701/2024sp/",
+    year: "Feb. 2024 – May. 2024",
+    description:
+      "an automated Wikipedia article tagging system for the Cornell CS 4701 practicum in artificial intelligence",
+    has_partner1: true,
+    partner1: {
+      name: "Cathryn Li",
+      url: "https://www.linkedin.com/in/cathryn-li-383239209/",
+    },
+    has_partner2: true,
+    partner2: { 
+      name: "Neil Estrada", 
+      url: "https://www.linkedin.com/in/neil-estrada-2002/" 
+    },
+    has_partner3: false,
+    contribution1:
+      "processed and filtered data for Natural Language Processing techniques and Graph Neural Networks",
+    contribution2:
+      "generated model visualization using spring layout to scale edges and nodes",
+    contribution3:
+      "implemented using Python with PyTorch Geometric library",
+    tech_stack: "Python, PyTorch Geometric",
+    has_github: false,
+    github_url: "",
+    has_demo: false,
+    demo_url: "",
+  },
+  {
     img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/starburst.jpg",
     has_vid: false,
     vid: "",
@@ -14,9 +72,9 @@ export const projectsList = [
     has_partner2: false,
     has_partner3: false,
     contribution1:
-      "implemented pricing and packaging plan using Java for backend, React with Typescript for frontend, and SQL for DB migrations",
+      "implemented pricing and packaging plan in Java, TypeScript with React, and SQL",
     contribution2:
-      "integrated payment tiers into billing and entitlement system and added backend and UI gates for paid tier features",
+      "integrated payment tiers into billing and entitlement system, added gates for paid tier features, and performed DB migrations",
     contribution3: 
       "developed new free trial experience by updating billing and entitlement managers and creating notifications events",
     tech_stack: "Java, React, TypeScript, SQL",
@@ -54,7 +112,7 @@ export const projectsList = [
     has_vid: true,
     has_sound: true,
     vid: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/melodygenerator.mp4",
-    title: "The Melody Generator",
+    title: "Melody Generator",
     company: "Cornell CS 3110",
     company_url: "https://cs3110.github.io/textbook/chapters/intro/intro.html",
     year: "Sep. 2022 – Dec. 2022",
@@ -96,16 +154,16 @@ export const projectsList = [
     company_url: "https://www.mill5.com/",
     year: "May. 2022 - Aug. 2022",
     description:
-      "an application that helps financiers and stock traders retrieve quality market information through chat bots in platforms such as Microsoft Teams",
+      "an application that helps finance professionals retrieve quality market information through chat bots in platforms such as Microsoft Teams",
     has_partner1: false,
     has_partner2: false,
     has_partner3: false,
     contribution1:
-      "built frontend and backend of the internal administration site for managing FinOwl users and products",
+      "developed internal administration site for managing FinOwl users and products in C# with .NET and TypeScript with React",
     contribution2:
-      "developed a REST API with .NET 6 using n-tier architecture with unit and integration tests",
+      "built REST API with n-tier architecture and created unit and integration tests",
     contribution3:
-      "implemented SPA using React with TypeScript, RTK Query from Redux Toolkit, and a Metronic Bootstrap template",
+      "implemented SPA using RTK Query from Redux Toolkit and Metronic Bootstrap template",
     tech_stack: "C#, .NET, React, TypeScript",
     has_github: false,
     github_url: "",
@@ -279,13 +337,13 @@ export const imagesList = [
 // about skills
 export const skillsList = [
   {
+    name: "Python",
+  },
+  {
     name: "Java",
   },
   {
-    name: "JavaScript",
-  },
-  {
-    name: "TypeScript",
+    name: "SQL",
   },
   {
     name: "C#",
@@ -294,10 +352,10 @@ export const skillsList = [
     name: "OCaml",
   },
   {
-    name: "Python",
+    name: "TypeScript",
   },
   {
-    name: "SQL",
+    name: "HTML/CSS",
   },
   {
     name: "React",
@@ -306,10 +364,40 @@ export const skillsList = [
     name: ".NET",
   },
   {
+    name: "Django",
+  },
+  {
+    name: "Terraform",
+  },
+  {
+    name: "Nginx",
+  },
+  {
+    name: "Docker",
+  },
+  {
+    name: "AWS",
+  },
+  {
     name: "Git",
   },
   {
+    name: "VS Code",
+  },
+  {
+    name: "IntelliJ",
+  },
+  {
+    name: "PyCharm",
+  },
+  {
+    name: "Jira",
+  },
+  {
     name: "Agile",
+  },
+  {
+    name: "Canary Testing",
   },
 ];
 
