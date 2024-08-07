@@ -26,14 +26,19 @@ function About() {
         <div className="section-title">About Me</div>
         <AboutCard>
           <AboutBio>
-            I am a junior at Cornell Univeristy
-            studying Computer Science in the College of Engineering and
-            a developer on the Cornell Design & Tech Initiative Project Team. I took 
-            my very first programming course when I was 14 and since then, 
-            I have continously worked on improving my skills
-            in order to develop efficient and elegant code!
-            Outside of CS, I also love skiing (& ski racing), cooking <s>& burning</s> my favorite food for my family,
-            and watching the sunset with my friends!
+            <p>
+              I am a senior at Cornell Univeristy
+              majoring in Computer Science and minoring in Mathematics.
+              I took my very first programming course when I was 14 and since then, 
+              I have continously worked on improving my skills
+              in order to develop efficient and elegant code!
+            </p>
+            <br/>
+            <p>
+              Outside of CS, I also love skiing (& ski racing),
+              cooking <s>& burning</s> my favorite food,
+              and biking around cities with my friends!
+            </p>
           </AboutBio>
           <Swiper
             spaceBetween={30}
