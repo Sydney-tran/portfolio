@@ -1,6 +1,35 @@
 // projects
 export const projectsList = [
   {
+    img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/dslabs.jpg",
+    has_vid: false,
+    vid: "",
+    company: "Cornell CS 5414",
+    company_url: "https://www.cs.cornell.edu/courses/cs5414/2024fa/",
+    title: "DSLabs Assignments",
+    year: "Aug. 2024 – Dec. 2024",
+    description:
+      "a highly available, scalable, fault tolerant, and transactional key-value store",       
+      has_partner1: true,
+      partner1: {
+        name: "Daniel Lee",
+        url: "https://www.linkedin.com/in/daniel-lee-84a456218/",
+      },
+    has_partner2: false,
+    has_partner3: false,
+    contribution1:
+      "followed the sequence of DSLabs assignments created by Ellis Michael",
+    contribution2:
+      "developed using distributed computing concepts learned in class, such as Paxos and Two Phase Commit",
+    contribution3: 
+      "wrote design docs for each assignment and improved implementations based on TA feedback",
+    tech_stack: "Java, DSLabs framework",
+    has_github: true,
+    github_url: "https://github.com/emichael/dslabs",
+    has_demo: false,
+    demo_url: "",
+  },
+  {
     img: "https://raw.githubusercontent.com/Sydney-tran/portfolio/main/portfolio-website/src/assets/klaviyo.jpg",
     has_vid: false,
     vid: "",
@@ -343,6 +372,9 @@ export const skillsList = [
     name: "Java",
   },
   {
+    name: "C++",
+  },
+  {
     name: "SQL",
   },
   {
@@ -364,7 +396,7 @@ export const skillsList = [
     name: ".NET",
   },
   {
-    name: "Django",
+    name: "Linux",
   },
   {
     name: "Terraform",
@@ -386,9 +418,6 @@ export const skillsList = [
   },
   {
     name: "IntelliJ",
-  },
-  {
-    name: "PyCharm",
   },
   {
     name: "Jira",
